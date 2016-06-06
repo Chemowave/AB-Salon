@@ -29,6 +29,8 @@
 		F855AC521D055B66007F0C87 /* CustomValidationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC4E1D055B66007F0C87 /* CustomValidationTextField.m */; };
 		F855AC531D055B66007F0C87 /* ValidationCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC501D055B66007F0C87 /* ValidationCheckbox.m */; };
 		F855AC5B1D055BA0007F0C87 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC591D055BA0007F0C87 /* LoginViewController.m */; };
+		F855AC6A1D058ED4007F0C87 /* RegisterUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC671D058ED4007F0C87 /* RegisterUserVC.m */; };
+		F855AC6B1D058ED4007F0C87 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC691D058ED4007F0C87 /* RegistrationViewController.m */; };
 		FF01FB88AFC53CCA8DCEC3CA /* libPods-AB-SalonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2848A88C6299E0BDA8FE7EB3 /* libPods-AB-SalonTests.a */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +101,10 @@
 		F855AC501D055B66007F0C87 /* ValidationCheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationCheckbox.m; sourceTree = "<group>"; };
 		F855AC581D055BA0007F0C87 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		F855AC591D055BA0007F0C87 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F855AC661D058ED4007F0C87 /* RegisterUserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterUserVC.h; sourceTree = "<group>"; };
+		F855AC671D058ED4007F0C87 /* RegisterUserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterUserVC.m; sourceTree = "<group>"; };
+		F855AC681D058ED4007F0C87 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		F855AC691D058ED4007F0C87 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +241,8 @@
 		3D9CD8D41D05561D00C71D6A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F855AC651D058ED4007F0C87 /* RegisterUser */,
+				F855AC641D058ED4007F0C87 /* RegistrationViewControllers */,
 				3D9CD8E21D0561F700C71D6A /* ForgotPassword */,
 				F855AC541D055BA0007F0C87 /* LoginScreen */,
 			);
@@ -293,6 +301,25 @@
 				F855AC591D055BA0007F0C87 /* LoginViewController.m */,
 			);
 			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		F855AC641D058ED4007F0C87 /* RegistrationViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F855AC681D058ED4007F0C87 /* RegistrationViewController.h */,
+				F855AC691D058ED4007F0C87 /* RegistrationViewController.m */,
+			);
+			path = RegistrationViewControllers;
+			sourceTree = "<group>";
+		};
+		F855AC651D058ED4007F0C87 /* RegisterUser */ = {
+			isa = PBXGroup;
+			children = (
+				F855AC661D058ED4007F0C87 /* RegisterUserVC.h */,
+				F855AC671D058ED4007F0C87 /* RegisterUserVC.m */,
+			);
+			name = RegisterUser;
+			path = RegistrationViewControllers/RegisterUser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -564,12 +591,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F855AC6A1D058ED4007F0C87 /* RegisterUserVC.m in Sources */,
 				F855AC5B1D055BA0007F0C87 /* LoginViewController.m in Sources */,
 				F855AC521D055B66007F0C87 /* CustomValidationTextField.m in Sources */,
 				3D9CD8DC1D05561D00C71D6A /* main.m in Sources */,
 				3D9CD8E51D0561F700C71D6A /* ForgotPasswordVC.m in Sources */,
 				F855AC531D055B66007F0C87 /* ValidationCheckbox.m in Sources */,
 				F855AC511D055B66007F0C87 /* BottomButton.m in Sources */,
+				F855AC6B1D058ED4007F0C87 /* RegistrationViewController.m in Sources */,
 				3D9CD8D71D05561D00C71D6A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
