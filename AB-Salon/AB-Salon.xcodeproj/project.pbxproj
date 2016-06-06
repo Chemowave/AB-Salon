@@ -52,6 +52,8 @@
 		3D9CD8D31D05561D00C71D6A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D9CD8D51D05561D00C71D6A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3D9CD8D61D05561D00C71D6A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D9CD8E01D05588900C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3D9CD8E11D05588900C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -362,6 +364,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3D9CD8CD1D05561D00C71D6A /* Base */,
+				3D9CD8E01D05588900C71D6A /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3D9CD8CF1D05561D00C71D6A /* Base */,
+				3D9CD8E11D05588900C71D6A /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
