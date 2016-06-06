@@ -16,6 +16,15 @@
 		3D9CD8DB1D05561D00C71D6A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8D21D05561D00C71D6A /* Info.plist */; };
 		3D9CD8DC1D05561D00C71D6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD8D31D05561D00C71D6A /* main.m */; };
 		3D9CD8DD1D05561D00C71D6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD8D61D05561D00C71D6A /* ViewController.m */; };
+		F855AC511D055B66007F0C87 /* BottomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC4C1D055B66007F0C87 /* BottomButton.m */; };
+		F855AC521D055B66007F0C87 /* CustomValidationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC4E1D055B66007F0C87 /* CustomValidationTextField.m */; };
+		F855AC531D055B66007F0C87 /* ValidationCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC501D055B66007F0C87 /* ValidationCheckbox.m */; };
+		F855AC5A1D055BA0007F0C87 /* ForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC571D055BA0007F0C87 /* ForgotPasswordVC.m */; };
+		F855AC5B1D055BA0007F0C87 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC591D055BA0007F0C87 /* LoginViewController.m */; };
+		F855AC601D055BD4007F0C87 /* LoginViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855AC5C1D055BD4007F0C87 /* LoginViewStoryboard.storyboard */; };
+		F855AC611D055BD4007F0C87 /* NegotiateAppointmentVCStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855AC5D1D055BD4007F0C87 /* NegotiateAppointmentVCStoryboard.storyboard */; };
+		F855AC621D055BD4007F0C87 /* RegistrationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855AC5E1D055BD4007F0C87 /* RegistrationStoryboard.storyboard */; };
+		F855AC631D055BD4007F0C87 /* ScheduleHoursStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855AC5F1D055BD4007F0C87 /* ScheduleHoursStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +63,20 @@
 		3D9CD8D61D05561D00C71D6A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3D9CD8E01D05588900C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		3D9CD8E11D05588900C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		F855AC4B1D055B66007F0C87 /* BottomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomButton.h; sourceTree = "<group>"; };
+		F855AC4C1D055B66007F0C87 /* BottomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomButton.m; sourceTree = "<group>"; };
+		F855AC4D1D055B66007F0C87 /* CustomValidationTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomValidationTextField.h; sourceTree = "<group>"; };
+		F855AC4E1D055B66007F0C87 /* CustomValidationTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomValidationTextField.m; sourceTree = "<group>"; };
+		F855AC4F1D055B66007F0C87 /* ValidationCheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationCheckbox.h; sourceTree = "<group>"; };
+		F855AC501D055B66007F0C87 /* ValidationCheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationCheckbox.m; sourceTree = "<group>"; };
+		F855AC561D055BA0007F0C87 /* ForgotPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordVC.h; sourceTree = "<group>"; };
+		F855AC571D055BA0007F0C87 /* ForgotPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordVC.m; sourceTree = "<group>"; };
+		F855AC581D055BA0007F0C87 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F855AC591D055BA0007F0C87 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F855AC5C1D055BD4007F0C87 /* LoginViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewStoryboard.storyboard; sourceTree = "<group>"; };
+		F855AC5D1D055BD4007F0C87 /* NegotiateAppointmentVCStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NegotiateAppointmentVCStoryboard.storyboard; sourceTree = "<group>"; };
+		F855AC5E1D055BD4007F0C87 /* RegistrationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegistrationStoryboard.storyboard; sourceTree = "<group>"; };
+		F855AC5F1D055BD4007F0C87 /* ScheduleHoursStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScheduleHoursStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				3D9CD8C51D05561D00C71D6A /* App Delegate */,
-				3D9CD8C81D05561D00C71D6A /* Custom Views */,
 				3D9CD8C91D05561D00C71D6A /* Data Handler */,
+				F855AC4A1D055B66007F0C87 /* CustomViews */,
 				3D9CD8CA1D05561D00C71D6A /* Modals */,
 				3D9CD8CB1D05561D00C71D6A /* Storyboards */,
 				3D9CD8D01D05561D00C71D6A /* Supporting Files */,
@@ -142,13 +165,6 @@
 			path = "App Delegate";
 			sourceTree = "<group>";
 		};
-		3D9CD8C81D05561D00C71D6A /* Custom Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Custom Views";
-			sourceTree = "<group>";
-		};
 		3D9CD8C91D05561D00C71D6A /* Data Handler */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +182,10 @@
 		3D9CD8CB1D05561D00C71D6A /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				F855AC5C1D055BD4007F0C87 /* LoginViewStoryboard.storyboard */,
+				F855AC5D1D055BD4007F0C87 /* NegotiateAppointmentVCStoryboard.storyboard */,
+				F855AC5E1D055BD4007F0C87 /* RegistrationStoryboard.storyboard */,
+				F855AC5F1D055BD4007F0C87 /* ScheduleHoursStoryboard.storyboard */,
 				3D9CD8CC1D05561D00C71D6A /* LaunchScreen.storyboard */,
 				3D9CD8CE1D05561D00C71D6A /* Main.storyboard */,
 			);
@@ -185,10 +205,43 @@
 		3D9CD8D41D05561D00C71D6A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F855AC541D055BA0007F0C87 /* LoginScreen */,
 				3D9CD8D51D05561D00C71D6A /* ViewController.h */,
 				3D9CD8D61D05561D00C71D6A /* ViewController.m */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F855AC4A1D055B66007F0C87 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				F855AC4B1D055B66007F0C87 /* BottomButton.h */,
+				F855AC4C1D055B66007F0C87 /* BottomButton.m */,
+				F855AC4D1D055B66007F0C87 /* CustomValidationTextField.h */,
+				F855AC4E1D055B66007F0C87 /* CustomValidationTextField.m */,
+				F855AC4F1D055B66007F0C87 /* ValidationCheckbox.h */,
+				F855AC501D055B66007F0C87 /* ValidationCheckbox.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		F855AC541D055BA0007F0C87 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F855AC551D055BA0007F0C87 /* ForgotPassword */,
+				F855AC581D055BA0007F0C87 /* LoginViewController.h */,
+				F855AC591D055BA0007F0C87 /* LoginViewController.m */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		F855AC551D055BA0007F0C87 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F855AC561D055BA0007F0C87 /* ForgotPasswordVC.h */,
+				F855AC571D055BA0007F0C87 /* ForgotPasswordVC.m */,
+			);
+			path = ForgotPassword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,10 +347,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F855AC631D055BD4007F0C87 /* ScheduleHoursStoryboard.storyboard in Resources */,
+				F855AC621D055BD4007F0C87 /* RegistrationStoryboard.storyboard in Resources */,
 				3D9CD8DB1D05561D00C71D6A /* Info.plist in Resources */,
 				3D9CD8D81D05561D00C71D6A /* LaunchScreen.storyboard in Resources */,
 				3D9CD8DA1D05561D00C71D6A /* Assets.xcassets in Resources */,
 				3D9CD8D91D05561D00C71D6A /* Main.storyboard in Resources */,
+				F855AC601D055BD4007F0C87 /* LoginViewStoryboard.storyboard in Resources */,
+				F855AC611D055BD4007F0C87 /* NegotiateAppointmentVCStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,8 +379,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F855AC5B1D055BA0007F0C87 /* LoginViewController.m in Sources */,
 				3D9CD8DD1D05561D00C71D6A /* ViewController.m in Sources */,
+				F855AC521D055B66007F0C87 /* CustomValidationTextField.m in Sources */,
 				3D9CD8DC1D05561D00C71D6A /* main.m in Sources */,
+				F855AC5A1D055BA0007F0C87 /* ForgotPasswordVC.m in Sources */,
+				F855AC531D055B66007F0C87 /* ValidationCheckbox.m in Sources */,
+				F855AC511D055B66007F0C87 /* BottomButton.m in Sources */,
 				3D9CD8D71D05561D00C71D6A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,6 +614,7 @@
 				3D9CD8BE1D05459100C71D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D9CD8BF1D05459100C71D6A /* Build configuration list for PBXNativeTarget "AB-SalonTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +623,7 @@
 				3D9CD8C11D05459100C71D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D9CD8C21D05459100C71D6A /* Build configuration list for PBXNativeTarget "AB-SalonUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +632,7 @@
 				3D9CD8C41D05459100C71D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

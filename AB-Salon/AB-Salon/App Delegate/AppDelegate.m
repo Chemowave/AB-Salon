@@ -17,6 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    NSString * storyboardName = @"RegistrationStoryboard";
+    NSString * viewControllerID = @"RegistrationViewController";
+    UIStoryboard * storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
+    UIViewController * controller = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:viewControllerID];
+    
+    UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:controller];
+    self.window.rootViewController = navigation;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
