@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import <FBSDKLoginKit/FBSDKLoginKit.h>
-//#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import "CustomValidationTextField.h"
 #import "BottomButton.h"
 
@@ -19,7 +19,7 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *errorMessageTopConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *facebookViewTopSpace;
 @property (weak, nonatomic) IBOutlet UIView *facebookView;
-//@property (weak, nonatomic) IBOutlet FBSDKLoginButton *facebookRegistrationButton;
+@property (weak, nonatomic) IBOutlet FBSDKLoginButton *facebookRegistrationButton;
 
 @property (weak, nonatomic) IBOutlet CustomValidationTextField *emailAddressTextField;
 @property (weak, nonatomic) IBOutlet CustomValidationTextField *passwordTextField;

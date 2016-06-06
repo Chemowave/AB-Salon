@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "REGISTER WITH EMAIL"; ObjectID = "4dk-TG-r0z"; */
+"4dk-TG-r0z.normalTitle" = "REGISTER WITH EMAIL";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DkP-SK-IjL"; */
+"DkP-SK-IjL.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Already have an account?"; ObjectID = "GQb-gF-BSN"; */
+"GQb-gF-BSN.normalTitle" = "Already have an account?";
+
+/* Class = "UITextField"; placeholder = "PHONE NUMBER"; ObjectID = "NIC-Np-954"; */
+"NIC-Np-954.placeholder" = "PHONE NUMBER";
+
+/* Class = "UITextField"; placeholder = "EMAIL ADDRESS"; ObjectID = "ZPn-ek-eDR"; */
+"ZPn-ek-eDR.placeholder" = "EMAIL ADDRESS";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "cFp-pF-jLT"; */
+"cFp-pF-jLT.normalTitle" = "Create Account";
+
+/* Class = "UITextField"; placeholder = "NAME"; ObjectID = "pNC-Db-kJg"; */
+"pNC-Db-kJg.placeholder" = "NAME";
+
+/* Class = "UIButton"; normalTitle = "REGISTER WITH FACEBOOK"; ObjectID = "pNw-BN-bgU"; */
+"pNw-BN-bgU.normalTitle" = "REGISTER WITH FACEBOOK";
+
+/* Class = "UITextField"; placeholder = "PASSWORD"; ObjectID = "rtP-DF-Fh0"; */
+"rtP-DF-Fh0.placeholder" = "PASSWORD";
+
+/* Class = "UILabel"; text = "By creating an account you agree to our terms and conditions and privacy policy"; ObjectID = "wAb-dx-Kbo"; */
+"wAb-dx-Kbo.text" = "By creating an account you agree to our terms and conditions and privacy policy";

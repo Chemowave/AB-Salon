@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "Facebook login button"; ObjectID = "FLJ-As-XWB"; */
+"FLJ-As-XWB.normalTitle" = "Facebook login button";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "NGU-oS-LXd"; */
+"NGU-oS-LXd.text" = "OR";
+
+/* Class = "UITextField"; placeholder = "EMAIL ADDRESS"; ObjectID = "acT-zd-ohq"; */
+"acT-zd-ohq.placeholder" = "EMAIL ADDRESS";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bDr-T4-lCu"; */
+"bDr-T4-lCu.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "SEND REQUEST"; ObjectID = "cV6-FX-Uhg"; */
+"cV6-FX-Uhg.normalTitle" = "SEND REQUEST";
+
+/* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "heT-Wo-WfI"; */
+"heT-Wo-WfI.normalTitle" = "LOG IN";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "oaH-up-equ"; */
+"oaH-up-equ.normalTitle" = "Forgot Password?";
+
+/* Class = "UITextField"; placeholder = "PASSWORD"; ObjectID = "obd-u6-TbE"; */
+"obd-u6-TbE.placeholder" = "PASSWORD";
+
+/* Class = "UITextField"; placeholder = "EMAIL ADDRESS"; ObjectID = "sVS-ys-fct"; */
+"sVS-ys-fct.placeholder" = "EMAIL ADDRESS";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vEt-HP-gwj"; */
+"vEt-HP-gwj.text" = "Label";

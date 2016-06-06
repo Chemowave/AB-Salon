@@ -7,24 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11E8D032E1B6B534F902E76E /* libPods-AB-SalonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A84853437AB0F73104729F /* libPods-AB-SalonUITests.a */; };
+		23A9BFAE4EDB806E7902E479 /* libPods-AB-Salon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5C79B987B2DF7DC0BA20A7 /* libPods-AB-Salon.a */; };
 		3D9CD8AD1D05459100C71D6A /* AB_SalonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD8AC1D05459100C71D6A /* AB_SalonTests.m */; };
 		3D9CD8B81D05459100C71D6A /* AB_SalonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD8B71D05459100C71D6A /* AB_SalonUITests.m */; };
 		3D9CD8D71D05561D00C71D6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD8C71D05561D00C71D6A /* AppDelegate.m */; };
 		3D9CD8D81D05561D00C71D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8CC1D05561D00C71D6A /* LaunchScreen.storyboard */; };
-		3D9CD8D91D05561D00C71D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8CE1D05561D00C71D6A /* Main.storyboard */; };
 		3D9CD8DA1D05561D00C71D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8D11D05561D00C71D6A /* Assets.xcassets */; };
 		3D9CD8DB1D05561D00C71D6A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8D21D05561D00C71D6A /* Info.plist */; };
 		3D9CD8DC1D05561D00C71D6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD8D31D05561D00C71D6A /* main.m */; };
-		3D9CD8DD1D05561D00C71D6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD8D61D05561D00C71D6A /* ViewController.m */; };
+		3D9CD8E51D0561F700C71D6A /* ForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD8E41D0561F700C71D6A /* ForgotPasswordVC.m */; };
+		3D9CD8E81D0562A600C71D6A /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8E61D0562A600C71D6A /* UserProfile.storyboard */; };
+		3D9CD8EB1D0562C400C71D6A /* SalonProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8E91D0562C400C71D6A /* SalonProfile.storyboard */; };
+		3D9CD8EE1D0562D300C71D6A /* Services.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8EC1D0562D300C71D6A /* Services.storyboard */; };
+		3D9CD8F11D0562E300C71D6A /* Appointments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8EF1D0562E300C71D6A /* Appointments.storyboard */; };
+		3D9CD8F41D0562F800C71D6A /* Share.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8F21D0562F800C71D6A /* Share.storyboard */; };
+		3D9CD8F71D05630900C71D6A /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8F51D05630900C71D6A /* About.storyboard */; };
+		3D9CD8FC1D05632D00C71D6A /* LoginViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8F81D05632D00C71D6A /* LoginViewStoryboard.storyboard */; };
+		3D9CD8FD1D05632D00C71D6A /* RegistrationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD8FA1D05632D00C71D6A /* RegistrationStoryboard.storyboard */; };
 		F855AC511D055B66007F0C87 /* BottomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC4C1D055B66007F0C87 /* BottomButton.m */; };
 		F855AC521D055B66007F0C87 /* CustomValidationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC4E1D055B66007F0C87 /* CustomValidationTextField.m */; };
 		F855AC531D055B66007F0C87 /* ValidationCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC501D055B66007F0C87 /* ValidationCheckbox.m */; };
-		F855AC5A1D055BA0007F0C87 /* ForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC571D055BA0007F0C87 /* ForgotPasswordVC.m */; };
 		F855AC5B1D055BA0007F0C87 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F855AC591D055BA0007F0C87 /* LoginViewController.m */; };
-		F855AC601D055BD4007F0C87 /* LoginViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855AC5C1D055BD4007F0C87 /* LoginViewStoryboard.storyboard */; };
-		F855AC611D055BD4007F0C87 /* NegotiateAppointmentVCStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855AC5D1D055BD4007F0C87 /* NegotiateAppointmentVCStoryboard.storyboard */; };
-		F855AC621D055BD4007F0C87 /* RegistrationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855AC5E1D055BD4007F0C87 /* RegistrationStoryboard.storyboard */; };
-		F855AC631D055BD4007F0C87 /* ScheduleHoursStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855AC5F1D055BD4007F0C87 /* ScheduleHoursStoryboard.storyboard */; };
+		FF01FB88AFC53CCA8DCEC3CA /* libPods-AB-SalonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2848A88C6299E0BDA8FE7EB3 /* libPods-AB-SalonTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08BDC02C082666C8E113BF08 /* Pods-AB-Salon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AB-Salon.release.xcconfig"; path = "Pods/Target Support Files/Pods-AB-Salon/Pods-AB-Salon.release.xcconfig"; sourceTree = "<group>"; };
+		2848A88C6299E0BDA8FE7EB3 /* libPods-AB-SalonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AB-SalonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9CD88F1D05459000C71D6A /* AB-Salon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AB-Salon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9CD8A81D05459100C71D6A /* AB-SalonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AB-SalonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9CD8AC1D05459100C71D6A /* AB_SalonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AB_SalonTests.m; sourceTree = "<group>"; };
@@ -55,28 +62,43 @@
 		3D9CD8C61D05561D00C71D6A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D9CD8C71D05561D00C71D6A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3D9CD8CD1D05561D00C71D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D9CD8CF1D05561D00C71D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D9CD8D11D05561D00C71D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9CD8D21D05561D00C71D6A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9CD8D31D05561D00C71D6A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3D9CD8D51D05561D00C71D6A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D9CD8D61D05561D00C71D6A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3D9CD8E01D05588900C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		3D9CD8E11D05588900C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		3D9CD8E31D0561F700C71D6A /* ForgotPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordVC.h; sourceTree = "<group>"; };
+		3D9CD8E41D0561F700C71D6A /* ForgotPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordVC.m; sourceTree = "<group>"; };
+		3D9CD8E71D0562A600C71D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserProfile.storyboard; sourceTree = "<group>"; };
+		3D9CD8EA1D0562C400C71D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SalonProfile.storyboard; sourceTree = "<group>"; };
+		3D9CD8ED1D0562D300C71D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Services.storyboard; sourceTree = "<group>"; };
+		3D9CD8F01D0562E300C71D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Appointments.storyboard; sourceTree = "<group>"; };
+		3D9CD8F31D0562F800C71D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Share.storyboard; sourceTree = "<group>"; };
+		3D9CD8F61D05630900C71D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/About.storyboard; sourceTree = "<group>"; };
+		3D9CD8F91D05632D00C71D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginViewStoryboard.storyboard; sourceTree = "<group>"; };
+		3D9CD8FB1D05632D00C71D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RegistrationStoryboard.storyboard; sourceTree = "<group>"; };
+		3D9CD8FE1D05636000C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LoginViewStoryboard.strings; sourceTree = "<group>"; };
+		3D9CD8FF1D05636000C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/RegistrationStoryboard.strings; sourceTree = "<group>"; };
+		3D9CD9001D05636100C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3D9CD9011D05636100C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/UserProfile.strings; sourceTree = "<group>"; };
+		3D9CD9021D05636100C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SalonProfile.strings; sourceTree = "<group>"; };
+		3D9CD9031D05636100C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Services.strings; sourceTree = "<group>"; };
+		3D9CD9041D05636100C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Appointments.strings; sourceTree = "<group>"; };
+		3D9CD9051D05636100C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Share.strings; sourceTree = "<group>"; };
+		3D9CD9061D05636100C71D6A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/About.strings; sourceTree = "<group>"; };
+		532E78640CF83ED9010401BD /* Pods-AB-SalonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AB-SalonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AB-SalonUITests/Pods-AB-SalonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B28677229D7D17F4060B493 /* Pods-AB-SalonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AB-SalonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AB-SalonTests/Pods-AB-SalonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4A84853437AB0F73104729F /* libPods-AB-SalonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AB-SalonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88922AF6706D2D3EC42FD97 /* Pods-AB-Salon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AB-Salon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AB-Salon/Pods-AB-Salon.debug.xcconfig"; sourceTree = "<group>"; };
+		D4F4276F54A3C70AFD35129A /* Pods-AB-SalonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AB-SalonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AB-SalonTests/Pods-AB-SalonTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB5C79B987B2DF7DC0BA20A7 /* libPods-AB-Salon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AB-Salon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE25E13264A3F4E2C8574141 /* Pods-AB-SalonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AB-SalonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AB-SalonUITests/Pods-AB-SalonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F855AC4B1D055B66007F0C87 /* BottomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomButton.h; sourceTree = "<group>"; };
 		F855AC4C1D055B66007F0C87 /* BottomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomButton.m; sourceTree = "<group>"; };
 		F855AC4D1D055B66007F0C87 /* CustomValidationTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomValidationTextField.h; sourceTree = "<group>"; };
 		F855AC4E1D055B66007F0C87 /* CustomValidationTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomValidationTextField.m; sourceTree = "<group>"; };
 		F855AC4F1D055B66007F0C87 /* ValidationCheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationCheckbox.h; sourceTree = "<group>"; };
 		F855AC501D055B66007F0C87 /* ValidationCheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationCheckbox.m; sourceTree = "<group>"; };
-		F855AC561D055BA0007F0C87 /* ForgotPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordVC.h; sourceTree = "<group>"; };
-		F855AC571D055BA0007F0C87 /* ForgotPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordVC.m; sourceTree = "<group>"; };
 		F855AC581D055BA0007F0C87 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		F855AC591D055BA0007F0C87 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		F855AC5C1D055BD4007F0C87 /* LoginViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewStoryboard.storyboard; sourceTree = "<group>"; };
-		F855AC5D1D055BD4007F0C87 /* NegotiateAppointmentVCStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NegotiateAppointmentVCStoryboard.storyboard; sourceTree = "<group>"; };
-		F855AC5E1D055BD4007F0C87 /* RegistrationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegistrationStoryboard.storyboard; sourceTree = "<group>"; };
-		F855AC5F1D055BD4007F0C87 /* ScheduleHoursStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScheduleHoursStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A9BFAE4EDB806E7902E479 /* libPods-AB-Salon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF01FB88AFC53CCA8DCEC3CA /* libPods-AB-SalonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E8D032E1B6B534F902E76E /* libPods-AB-SalonUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +136,8 @@
 				3D9CD8AB1D05459100C71D6A /* AB-SalonTests */,
 				3D9CD8B61D05459100C71D6A /* AB-SalonUITests */,
 				3D9CD8901D05459000C71D6A /* Products */,
+				B871216C7AD02D66FF61C9D2 /* Pods */,
+				78B3ADC934B6FE3CB64E733D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,12 +209,15 @@
 		3D9CD8CB1D05561D00C71D6A /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				F855AC5C1D055BD4007F0C87 /* LoginViewStoryboard.storyboard */,
-				F855AC5D1D055BD4007F0C87 /* NegotiateAppointmentVCStoryboard.storyboard */,
-				F855AC5E1D055BD4007F0C87 /* RegistrationStoryboard.storyboard */,
-				F855AC5F1D055BD4007F0C87 /* ScheduleHoursStoryboard.storyboard */,
+				3D9CD8F81D05632D00C71D6A /* LoginViewStoryboard.storyboard */,
+				3D9CD8FA1D05632D00C71D6A /* RegistrationStoryboard.storyboard */,
 				3D9CD8CC1D05561D00C71D6A /* LaunchScreen.storyboard */,
-				3D9CD8CE1D05561D00C71D6A /* Main.storyboard */,
+				3D9CD8E61D0562A600C71D6A /* UserProfile.storyboard */,
+				3D9CD8E91D0562C400C71D6A /* SalonProfile.storyboard */,
+				3D9CD8EC1D0562D300C71D6A /* Services.storyboard */,
+				3D9CD8EF1D0562E300C71D6A /* Appointments.storyboard */,
+				3D9CD8F21D0562F800C71D6A /* Share.storyboard */,
+				3D9CD8F51D05630900C71D6A /* About.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -205,11 +235,42 @@
 		3D9CD8D41D05561D00C71D6A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3D9CD8E21D0561F700C71D6A /* ForgotPassword */,
 				F855AC541D055BA0007F0C87 /* LoginScreen */,
-				3D9CD8D51D05561D00C71D6A /* ViewController.h */,
-				3D9CD8D61D05561D00C71D6A /* ViewController.m */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3D9CD8E21D0561F700C71D6A /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				3D9CD8E31D0561F700C71D6A /* ForgotPasswordVC.h */,
+				3D9CD8E41D0561F700C71D6A /* ForgotPasswordVC.m */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		78B3ADC934B6FE3CB64E733D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB5C79B987B2DF7DC0BA20A7 /* libPods-AB-Salon.a */,
+				2848A88C6299E0BDA8FE7EB3 /* libPods-AB-SalonTests.a */,
+				A4A84853437AB0F73104729F /* libPods-AB-SalonUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B871216C7AD02D66FF61C9D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C88922AF6706D2D3EC42FD97 /* Pods-AB-Salon.debug.xcconfig */,
+				08BDC02C082666C8E113BF08 /* Pods-AB-Salon.release.xcconfig */,
+				7B28677229D7D17F4060B493 /* Pods-AB-SalonTests.debug.xcconfig */,
+				D4F4276F54A3C70AFD35129A /* Pods-AB-SalonTests.release.xcconfig */,
+				EE25E13264A3F4E2C8574141 /* Pods-AB-SalonUITests.debug.xcconfig */,
+				532E78640CF83ED9010401BD /* Pods-AB-SalonUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F855AC4A1D055B66007F0C87 /* CustomViews */ = {
@@ -228,20 +289,10 @@
 		F855AC541D055BA0007F0C87 /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
-				F855AC551D055BA0007F0C87 /* ForgotPassword */,
 				F855AC581D055BA0007F0C87 /* LoginViewController.h */,
 				F855AC591D055BA0007F0C87 /* LoginViewController.m */,
 			);
 			path = LoginScreen;
-			sourceTree = "<group>";
-		};
-		F855AC551D055BA0007F0C87 /* ForgotPassword */ = {
-			isa = PBXGroup;
-			children = (
-				F855AC561D055BA0007F0C87 /* ForgotPasswordVC.h */,
-				F855AC571D055BA0007F0C87 /* ForgotPasswordVC.m */,
-			);
-			path = ForgotPassword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D9CD8BC1D05459100C71D6A /* Build configuration list for PBXNativeTarget "AB-Salon" */;
 			buildPhases = (
+				68F0FB71B0DECFCE3DBDE9B0 /* 📦 Check Pods Manifest.lock */,
 				3D9CD88B1D05459000C71D6A /* Sources */,
 				3D9CD88C1D05459000C71D6A /* Frameworks */,
 				3D9CD88D1D05459000C71D6A /* Resources */,
+				9FFBECE8A6361D34F3F01EE1 /* 📦 Embed Pods Frameworks */,
+				57FBABB78437F696903319E2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,9 +322,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D9CD8BF1D05459100C71D6A /* Build configuration list for PBXNativeTarget "AB-SalonTests" */;
 			buildPhases = (
+				CCF33E49FC1689B5BF761C26 /* 📦 Check Pods Manifest.lock */,
 				3D9CD8A41D05459100C71D6A /* Sources */,
 				3D9CD8A51D05459100C71D6A /* Frameworks */,
 				3D9CD8A61D05459100C71D6A /* Resources */,
+				D09E237AD6ECCEA638A6CC84 /* 📦 Embed Pods Frameworks */,
+				D712A66204523B3226889316 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D9CD8C21D05459100C71D6A /* Build configuration list for PBXNativeTarget "AB-SalonUITests" */;
 			buildPhases = (
+				CFF3666B89B240AC0428E6DF /* 📦 Check Pods Manifest.lock */,
 				3D9CD8AF1D05459100C71D6A /* Sources */,
 				3D9CD8B01D05459100C71D6A /* Frameworks */,
 				3D9CD8B11D05459100C71D6A /* Resources */,
+				C92747B646C82B4813186288 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -347,14 +406,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F855AC631D055BD4007F0C87 /* ScheduleHoursStoryboard.storyboard in Resources */,
-				F855AC621D055BD4007F0C87 /* RegistrationStoryboard.storyboard in Resources */,
+				3D9CD8FD1D05632D00C71D6A /* RegistrationStoryboard.storyboard in Resources */,
+				3D9CD8EB1D0562C400C71D6A /* SalonProfile.storyboard in Resources */,
 				3D9CD8DB1D05561D00C71D6A /* Info.plist in Resources */,
 				3D9CD8D81D05561D00C71D6A /* LaunchScreen.storyboard in Resources */,
+				3D9CD8E81D0562A600C71D6A /* UserProfile.storyboard in Resources */,
+				3D9CD8FC1D05632D00C71D6A /* LoginViewStoryboard.storyboard in Resources */,
 				3D9CD8DA1D05561D00C71D6A /* Assets.xcassets in Resources */,
-				3D9CD8D91D05561D00C71D6A /* Main.storyboard in Resources */,
-				F855AC601D055BD4007F0C87 /* LoginViewStoryboard.storyboard in Resources */,
-				F855AC611D055BD4007F0C87 /* NegotiateAppointmentVCStoryboard.storyboard in Resources */,
+				3D9CD8F41D0562F800C71D6A /* Share.storyboard in Resources */,
+				3D9CD8EE1D0562D300C71D6A /* Services.storyboard in Resources */,
+				3D9CD8F11D0562E300C71D6A /* Appointments.storyboard in Resources */,
+				3D9CD8F71D05630900C71D6A /* About.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,16 +436,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57FBABB78437F696903319E2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AB-Salon/Pods-AB-Salon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68F0FB71B0DECFCE3DBDE9B0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFBECE8A6361D34F3F01EE1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AB-Salon/Pods-AB-Salon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92747B646C82B4813186288 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AB-SalonUITests/Pods-AB-SalonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF33E49FC1689B5BF761C26 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF3666B89B240AC0428E6DF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D09E237AD6ECCEA638A6CC84 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AB-SalonTests/Pods-AB-SalonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D712A66204523B3226889316 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AB-SalonTests/Pods-AB-SalonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D9CD88B1D05459000C71D6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F855AC5B1D055BA0007F0C87 /* LoginViewController.m in Sources */,
-				3D9CD8DD1D05561D00C71D6A /* ViewController.m in Sources */,
 				F855AC521D055B66007F0C87 /* CustomValidationTextField.m in Sources */,
 				3D9CD8DC1D05561D00C71D6A /* main.m in Sources */,
-				F855AC5A1D055BA0007F0C87 /* ForgotPasswordVC.m in Sources */,
+				3D9CD8E51D0561F700C71D6A /* ForgotPasswordVC.m in Sources */,
 				F855AC531D055B66007F0C87 /* ValidationCheckbox.m in Sources */,
 				F855AC511D055B66007F0C87 /* BottomButton.m in Sources */,
 				3D9CD8D71D05561D00C71D6A /* AppDelegate.m in Sources */,
@@ -426,18 +610,81 @@
 			isa = PBXVariantGroup;
 			children = (
 				3D9CD8CD1D05561D00C71D6A /* Base */,
-				3D9CD8E01D05588900C71D6A /* ar */,
+				3D9CD9001D05636100C71D6A /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		3D9CD8CE1D05561D00C71D6A /* Main.storyboard */ = {
+		3D9CD8E61D0562A600C71D6A /* UserProfile.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3D9CD8CF1D05561D00C71D6A /* Base */,
-				3D9CD8E11D05588900C71D6A /* ar */,
+				3D9CD8E71D0562A600C71D6A /* Base */,
+				3D9CD9011D05636100C71D6A /* ar */,
 			);
-			name = Main.storyboard;
+			name = UserProfile.storyboard;
+			sourceTree = "<group>";
+		};
+		3D9CD8E91D0562C400C71D6A /* SalonProfile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9CD8EA1D0562C400C71D6A /* Base */,
+				3D9CD9021D05636100C71D6A /* ar */,
+			);
+			name = SalonProfile.storyboard;
+			sourceTree = "<group>";
+		};
+		3D9CD8EC1D0562D300C71D6A /* Services.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9CD8ED1D0562D300C71D6A /* Base */,
+				3D9CD9031D05636100C71D6A /* ar */,
+			);
+			name = Services.storyboard;
+			sourceTree = "<group>";
+		};
+		3D9CD8EF1D0562E300C71D6A /* Appointments.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9CD8F01D0562E300C71D6A /* Base */,
+				3D9CD9041D05636100C71D6A /* ar */,
+			);
+			name = Appointments.storyboard;
+			sourceTree = "<group>";
+		};
+		3D9CD8F21D0562F800C71D6A /* Share.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9CD8F31D0562F800C71D6A /* Base */,
+				3D9CD9051D05636100C71D6A /* ar */,
+			);
+			name = Share.storyboard;
+			sourceTree = "<group>";
+		};
+		3D9CD8F51D05630900C71D6A /* About.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9CD8F61D05630900C71D6A /* Base */,
+				3D9CD9061D05636100C71D6A /* ar */,
+			);
+			name = About.storyboard;
+			sourceTree = "<group>";
+		};
+		3D9CD8F81D05632D00C71D6A /* LoginViewStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9CD8F91D05632D00C71D6A /* Base */,
+				3D9CD8FE1D05636000C71D6A /* ar */,
+			);
+			name = LoginViewStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3D9CD8FA1D05632D00C71D6A /* RegistrationStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9CD8FB1D05632D00C71D6A /* Base */,
+				3D9CD8FF1D05636000C71D6A /* ar */,
+			);
+			name = RegistrationStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -527,9 +774,10 @@
 		};
 		3D9CD8BD1D05459100C71D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88922AF6706D2D3EC42FD97 /* Pods-AB-Salon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "AB-Salon/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AB-Salon/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.citrusbits.AB-Salon";
@@ -539,9 +787,10 @@
 		};
 		3D9CD8BE1D05459100C71D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BDC02C082666C8E113BF08 /* Pods-AB-Salon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "AB-Salon/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AB-Salon/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.citrusbits.AB-Salon";
@@ -551,6 +800,7 @@
 		};
 		3D9CD8C01D05459100C71D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B28677229D7D17F4060B493 /* Pods-AB-SalonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "AB-SalonTests/Info.plist";
@@ -563,6 +813,7 @@
 		};
 		3D9CD8C11D05459100C71D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F4276F54A3C70AFD35129A /* Pods-AB-SalonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "AB-SalonTests/Info.plist";
@@ -575,6 +826,7 @@
 		};
 		3D9CD8C31D05459100C71D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE25E13264A3F4E2C8574141 /* Pods-AB-SalonUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "AB-SalonUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -586,6 +838,7 @@
 		};
 		3D9CD8C41D05459100C71D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532E78640CF83ED9010401BD /* Pods-AB-SalonUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "AB-SalonUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
